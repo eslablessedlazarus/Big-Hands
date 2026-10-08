@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIG HANDS</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/logo.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand-logo">
+        <img src="assets/logo.jpeg" alt="Big Hands logo" class="brand-mark">
+        <span class="brand-wordmark">
+          <span class="logo-text">BIG HANDS</span>
+          <span class="sub-text">Crafted for the city, cut for the now.</span>
+        </span>
+      </a>
+      <nav class="nav-links">
+        <a href="#coming-soon">Coming Soon</a>
+        <a href="#atelier">The Atelier</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="cart-btn" class="cart-icon">Cart (<span id="cart-count">0</span>)</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="badge red-badge">New Arrival</span>
+      <h1 class="hero-title">BIG HANDS FASHION COMMUNITY</h1>
+      <p class="hero-subtitle">Redefining modern luxury streetwear.</p>
+      <a href="#coming-soon" class="btn btn-primary">See What's Coming</a>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       COMING SOON (horizontally scrollable, adaptable)
+       Each .coming-soon-item is a self-contained block — just copy
+       one and change the image src/alt/caption to add another. The
+       track scrolls sideways automatically (scroll-snap) however
+       many items you add; no grid math to adjust.
+       ============================================================ -->
+  <section id="coming-soon" class="coming-soon-section">
+    <h2 class="section-title">COMING SOON</h2>
+    <p class="section-subtitle">The first Big Hands capsule is built for motion, depth, and late-night confidence.</p>
+
+    <!-- MEN slider -->
+    <div class="coming-soon-group">
+      <h3 class="coming-soon-group-title">Men</h3>
+      <div class="coming-soon-scroller">
+        <button class="scroll-arrow scroll-arrow-left" aria-label="Scroll Men preview left">&#8249;</button>
+
+        <div class="coming-soon-track">
+
+          <figure class="coming-soon-item">
+            <span class="badge red-badge">Coming Soon</span>
+            <img src="assets/images/Men1.jpeg" alt="Collection of Men cropped hoodie">
+            <figcaption>Men Cropped Hoodie</figcaption>
+          </figure>
+
+          <figure class="coming-soon-item">
+            <span class="badge red-badge">Coming Soon</span>
+            <img src="assets/images/Man2.jfif" alt="A model wearing the maroon Men's Streetwear Co-ord Set">
+            <figcaption>Streetwear Co-ord Set (Maroon)</figcaption>
+          </figure>
+
+          <figure class="coming-soon-item">
+            <span class="badge red-badge">Coming Soon</span>
+            <img src="assets/images/Man3.jfif" alt="A model wearing the black Men's Streetwear Co-ord Set">
+            <figcaption>Streetwear Co-ord Set (Black)</figcaption>
+          </figure>
+
+          <figure class="coming-soon-item">
+            <span class="badge red-badge">Coming Soon</span>
+            <img src="assets/images/Man4.jpeg" alt="A model wearing the Smart-Casual Co-ord">
+            <figcaption>Smart-Casual Co-ord</figcaption>
+          </figure>
+
+          <figure class="coming-soon-item">
+            <span class="badge red-badge">Coming Soon</span>
+            <img src="assets/images/Man5.jpeg" alt="A model wearing the Men's Streetwear Co-ord Set">
+            <figcaption>Streetwear Co-ord Set</figcaption>
+          </figure>
+
+          <!-- Add more .coming-soon-item blocks here as needed. -->
+
+        </div>
+
+        <button class="scroll-arrow scroll-arrow-right" aria-label="Scroll Men preview right">&#8250;</button>
+      </div>
+    </div>
+
+    <!-- WOMEN slider -->
+    <div class="coming-soon-group">
+      <h3 class="coming-soon-group-title">Women</h3>
+      <div class="coming-soon-scroller">
+        <button class="scroll-arrow scroll-arrow-left" aria-label="Scroll Women preview left">&#8249;</button>
+
+        <div class="coming-soon-track">
+
+          <figure class="coming-soon-item">
+            <span class="badge red-badge">Coming Soon</span>
+            <img src="assets/images/Women1.jpeg" alt="A model wearing the sleeveless women’s streetwear hoodie from the Big Hands collection">
+            <figcaption>Women Cropped Hoodie</figcaption>
+          </figure>
+
+          <figure class="coming-soon-item">
+            <span class="badge red-badge">Coming Soon</span>
+            <img src="assets/images/Women2.jpeg" alt="A model in a pink cropped hoodie from the Big Hands women’s capsule">
+            <figcaption>Pink Cropped Hoodie</figcaption>
+          </figure>
+
+          <figure class="coming-soon-item">
+            <span class="badge red-badge">Coming Soon</span>
+            <img src="assets/images/Girlhoodie_black.jpeg" alt="A model in the midnight black women’s hoodie from the Big Hands drop">
+            <figcaption>Midnight Hoodie Edit</figcaption>
+          </figure>
+
+          <figure class="coming-soon-item">
+            <span class="badge red-badge">Coming Soon</span>
+            <img src="assets/images/HandBag.jpeg" alt="A branded crossbody bag styled in the Big Hands women’s collection">
+            <figcaption>Monogram Crossbody</figcaption>
+          </figure>
+
+          <figure class="coming-soon-item">
+            <span class="badge red-badge">Coming Soon</span>
+            <img src="assets/images/Wgirlhoodie.jpeg" alt="A model wearing a soft-knit women’s hoodie in a urban style from Big Hands">
+            <figcaption>City Soft Knit</figcaption>
+          </figure>
+
+          <!-- Add more .coming-soon-item blocks here as needed. -->
+
+        </div>
+
+        <button class="scroll-arrow scroll-arrow-right" aria-label="Scroll Women preview right">&#8250;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       THE ATELIER (this section was linked in nav but missing —
+       added it here as brand-story placeholder content)
+       ============================================================ -->
+  <section id="atelier" class="atelier-section">
+    <div class="atelier-container">
+      <div class="atelier-content">
+        <span class="eyebrow">THE CRAFT</span>
+        <h2 class="atelier-title">Built in the city, cut for the everyday.</h2>
+        <p class="atelier-text">Big Hands creates elevated essentials with the discipline of tailoring and the ease of streetwear. We source premium fabrics, build in limited runs, and focus on silhouettes that feel sharp from the first wear to the last night out.</p>
+        <ul class="atelier-stats">
+          <li><strong>48</strong><span>pieces per drop</span></li>
+          <li><strong>14</strong><span>days to construct</span></li>
+          <li><strong>12</strong><span>cities reached</span></li>
+        </ul>
+      </div>
+      <div class="atelier-image-wrapper">
+        <img src="https://via.placeholder.com/600x700/151515/FFFFFF?text=Atelier+Workshop" alt="Workshop table with fabric, sewing tools, and streetwear pieces in progress">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       LEADERSHIP SECTION (Founder + Co-Founder)
+       Each .leader-card is self-contained. To add a third leader,
+       copy one .leader-card block and drop it inside
+       .leadership-grid — the layout wraps automatically.
+       ============================================================ -->
+  <section id="leadership" class="leadership-section">
+    <span class="eyebrow center">LEADERSHIP &amp; VISION</span>
+    <h2 class="section-title">THE FOUNDERS</h2>
+    <p class="section-subtitle">A sharp eye for silhouette, a love of motion, and a refusal to settle for ordinary.</p>
+
+    <div class="leadership-grid">
+
+      <article class="leader-card">
+        <div class="leader-image-wrapper">
+          <img src="assets/images/Peculiar-2.jpeg" alt="Portrait of founder Peculiar Abokondu in a studio setting" class="leader-image">
+        </div>
+        <div class="leader-content">
+          <h3 class="leader-name">Peculiar Abokondu</h3>
+          <p class="leader-title">Founder &amp; Creative Director</p>
+          <blockquote class="leader-quote">"Big Hands was built at the intersection of raw street energy and premium craft. We create pieces that own a room before the conversation even starts."</blockquote>
+          <p class="leader-bio">Peculiar grew up observing the city’s rhythm through fit, fabric, and attitude. His background in tailoring and design shaped a brand rooted in disciplined silhouettes, practical utility, and a clear point of view that feels both modern and unmistakably personal.</p>
+          <div class="leader-signature">
+            <span class="signature-name">PA</span>
+          </div>
+          <div class="leader-socials">
+            <a href="#" aria-label="Founder Instagram">Instagram</a>
+            <a href="#" aria-label="Founder LinkedIn">LinkedIn</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="leader-card">
+        <div class="leader-image-wrapper">
+          <img src="assets/images/Co_founder.jpeg" alt="Portrait of co-founder Mercy Emmanuel in a fashion studio" class="leader-image">
+        </div>
+        <div class="leader-content">
+          <h3 class="leader-name">Mercy Emmanuel</h3>
+          <p class="leader-title">Co-Founder &amp; Brand Strategist</p>
+          <blockquote class="leader-quote">"We wanted Big Hands to feel like a uniform for ambition — refined enough for the room, strong enough for the street."</blockquote>
+          <p class="leader-bio">Mercy brought the brand’s voice, community, and commercial direction into focus from day one. With a sharp eye for culture and presentation, she helped shape each drop around identity, intention, and the feeling of belonging that only a truly considered label can create.</p>
+          <div class="leader-signature">
+            <span class="signature-name">ME</span>
+          </div>
+          <div class="leader-socials">
+            <a href="#" aria-label="Co-Founder Instagram">Instagram</a>
+            <a href="#" aria-label="Co-Founder LinkedIn">LinkedIn</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT / NEWSLETTER PLACEHOLDER
+       Wire form-submit to your email provider (Klaviyo, Mailchimp,
+       your own backend, etc.) inside script.js.
+       ============================================================ -->
+  <section id="contact" class="newsletter-section">
+    <div class="newsletter-container">
+      <h2 class="section-title">JOIN THE LIST</h2>
+      <p class="section-subtitle">Get early access to capsule launches, styling notes, and limited-run releases.</p>
+      <form id="newsletter-form" class="newsletter-form">
+        <input type="email" id="newsletter-email" placeholder="you@email.com" required aria-label="Email address">
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+      <p id="newsletter-status" class="newsletter-status" role="status"></p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CART DRAWER (payment-ready)
+       Populated entirely by script.js. See PAYMENT_CONFIG in
+       script.js for where to plug in Stripe/PayPal/custom backend.
+       ============================================================ -->
+  <div id="cart-overlay" class="cart-overlay"></div>
+  <aside id="cart-drawer" class="cart-drawer" aria-hidden="true">
+    <div class="cart-drawer-header">
+      <h3>Your Bag</h3>
+      <button id="cart-close-btn" class="cart-close-btn" aria-label="Close cart">&times;</button>
+    </div>
+    <div id="cart-items" class="cart-items">
+      <!-- Cart line items injected here by script.js -->
+    </div>
+    <div class="cart-drawer-footer">
+      <div class="cart-subtotal-row">
+        <span>Subtotal</span>
+        <span id="cart-subtotal">$0.00</span>
+      </div>
+      <p class="cart-note">Shipping and taxes calculated at checkout.</p>
+      <button id="checkout-btn" class="btn btn-primary checkout-btn">Proceed to Checkout</button>
+      <p class="payment-placeholder-note">Secure checkout opens when each capsule release goes live.</p>
+    </div>
+  </aside>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="assets/logo.jpeg" alt="Big Hands logo" class="footer-logo">
+        <span class="logo-text">BIG HANDS</span>
+        <p>Luxury essentials for the street, refined enough for the room.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <a href="#coming-soon">Coming Soon</a>
+          <a href="#atelier">The Atelier</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#leadership">Leadership</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <a href="#">Shipping &amp; Returns</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-copyright">&copy; 2026 BIG HANDS. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
